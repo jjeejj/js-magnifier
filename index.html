@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>magnifier</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0
+        }
+
+        #demo{
+            display: block;
+            width: 400px;
+            height: 255px;
+            margin: 50px;
+            position: relative;
+            border: 1px solid #ccc
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="demo">
+        <div id="small-box">
+            <div id="float-box"></div><!--放大镜-->
+            <img src="small.jpg" alt="small"> <!--小图片-->
+        </div>
+        <div id="big-box">
+            <img src="big.jpg" alt="big"><!--大图片-->
+        </div>
+    </div>
+
+    <script>
+        window.onload = function () {
+            
+        }
+    </script>
+</body>
+</html>
